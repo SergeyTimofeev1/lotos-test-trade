@@ -1,5 +1,5 @@
-.participant {
-  display: flex;
-  flex-direction: column;
+.user {
+  min-width: 300px;
+  margin: 1rem 1rem;
   text-align: center;
 }

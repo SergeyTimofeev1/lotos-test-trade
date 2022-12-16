@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import './Timer.css'
 
 const Timer = ({ delayResend = "120" }) => {
 
@@ -17,7 +18,7 @@ const Timer = ({ delayResend = "120" }) => {
     if (timerHandler) {
       const timer = setInterval(() => {
         setDelay(delay - 1);
-      }, 100);
+      }, 1000);
 
       if (delay === 0) {
         setTimeEnd(prev => !prev)
@@ -30,11 +31,10 @@ const Timer = ({ delayResend = "120" }) => {
     }
   }, [timerHandler, delay]);
 
-  // if (timeEnd) return null
 
   return (
     <div className="timer">
-      <button onClick={startTimer}>Плей/пауза</button>
+      <button className="timer__button" onClick={startTimer}>Приостановить / возобновить торги</button>
       <span>
         {minutes}м : {seconds}с
       </span>

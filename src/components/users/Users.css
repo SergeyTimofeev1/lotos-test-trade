@@ -1,0 +1,4 @@
+.trade-users {
+  display: flex;
+  overflow-x: scroll;
+}
