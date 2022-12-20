@@ -5,8 +5,14 @@ import './Info.css'
 const Info = () => {
   return (
     <div className="trade__info">
-      <p className="trade__title">Ход</p>
       <Timer />
+      <div className="trade__aside">
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+      </div>
+      <p className="trade__title">Ход</p>
     </div>
   );
 }

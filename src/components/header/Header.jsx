@@ -1,14 +1,14 @@
 import React from 'react';
+import './Header.css'
 
 const Header = () => {
   return (
-    <>
-      <h1>Тестовые торги</h1>
+    <div className="header">
+      <h1 className="header__title">Тестовые торги на аппарат ЛОТОС № XX_XX_XX</h1>
       <hr />
-      <strong>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, id.</h2>
-      </strong>
-    </>
+      <h3 className="header__subtitle">Уважаемые участники, во время вашего хода вы можете изменить параметры, указанные в таблице: </h3>
+    </div>
+
   );
 }
 

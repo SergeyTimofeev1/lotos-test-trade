@@ -1,0 +1,11 @@
+.mainButton {
+  background: transparent;
+  border: 1px solid green;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 3rem;
+  width: 10rem;
+}

@@ -1,4 +1,22 @@
 .trade-users {
   display: flex;
   overflow-x: scroll;
+  min-width: 70%;
+}
+
+.trade-winodw {
+  display: flex;
+}
+
+.trade-window__info {
+  text-align: center;
+  min-width: 20%;
+}
+
+.trade-window__button {
+  margin: 1rem 0;
+}
+
+.trade-users__title {
+  align-self: center;
 }

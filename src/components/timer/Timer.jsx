@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import MainButton from "../UI/mainButton/MainButton";
 import './Timer.css'
 
 const Timer = ({ delayResend = "120" }) => {
@@ -34,10 +35,15 @@ const Timer = ({ delayResend = "120" }) => {
 
   return (
     <div className="timer">
-      <button className="timer__button" onClick={startTimer}>Приостановить / возобновить торги</button>
-      <span>
+      <h2 className="timer__header">ХОД</h2>
+      <div className="timer__content">
         {minutes}м : {seconds}с
-      </span>
+      </div>
+      <MainButton
+        onClick={startTimer}
+      >
+        Приостановить / возобновить торги
+      </MainButton>
     </div>
   );
 };
