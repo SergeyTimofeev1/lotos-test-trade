@@ -1,5 +1,4 @@
 import React from 'react';
-import Timer from '../timer/Timer';
 import MainButton from '../UI/mainButton/MainButton';
 import './User.css'
 
