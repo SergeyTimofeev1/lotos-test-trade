@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lotos-test-trade/static/css/main.7c87b1a7.css",
-    "main.js": "/lotos-test-trade/static/js/main.ea3d105e.js",
+    "main.js": "/lotos-test-trade/static/js/main.f3bf7ef8.js",
     "index.html": "/lotos-test-trade/index.html",
     "main.7c87b1a7.css.map": "/lotos-test-trade/static/css/main.7c87b1a7.css.map",
-    "main.ea3d105e.js.map": "/lotos-test-trade/static/js/main.ea3d105e.js.map"
+    "main.f3bf7ef8.js.map": "/lotos-test-trade/static/js/main.f3bf7ef8.js.map"
   },
   "entrypoints": [
     "static/css/main.7c87b1a7.css",
-    "static/js/main.ea3d105e.js"
+    "static/js/main.f3bf7ef8.js"
   ]
 }
